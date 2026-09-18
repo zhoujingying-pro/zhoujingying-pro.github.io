@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>周婧颖 · Jingying Zhou</title>
-  <meta name="description" content="周婧颖（Irena），墨尔本大学。Biology × AI。" />
+  <title>Jingying Zhou · 周婧颖</title>
+  <meta name="description" content="Jingying Zhou, University of Melbourne. Biology × computation." />
   <style>
     :root {
       --bg: #0e1218;
@@ -16,7 +16,6 @@
       --accent-2: #c4a574;
     }
     * { box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
     body {
       margin: 0;
       color: var(--text);
@@ -29,36 +28,18 @@
     }
     a { color: var(--accent); text-decoration: none; }
     a:hover { text-decoration: underline; }
-    .wrap { max-width: 760px; margin: 0 auto; padding: 4.5rem 1.4rem 5rem; }
+    .wrap { max-width: 680px; margin: 0 auto; padding: 4.5rem 1.4rem 5rem; }
     header h1 {
-      margin: 0 0 0.35rem;
-      font-size: clamp(2rem, 5vw, 2.7rem);
+      margin: 0 0 0.4rem;
+      font-size: clamp(1.8rem, 4.5vw, 2.4rem);
       font-weight: 650;
-      letter-spacing: 0.02em;
     }
-    .en {
-      color: var(--accent-2);
-      font-size: 1.05rem;
-      margin-bottom: 1.1rem;
-    }
-    .lede {
-      font-size: 1.12rem;
-      max-width: 40rem;
-    }
-    .muted { color: var(--muted); }
-    nav {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.9rem 1.2rem;
-      margin: 1.6rem 0 2.8rem;
-      font-size: 0.92rem;
-    }
-    nav a { color: var(--muted); }
-    nav a:hover { color: var(--accent); text-decoration: none; }
-    section { margin: 2.6rem 0; }
+    .en { color: var(--accent-2); margin: 0 0 1.2rem; }
+    .lede { font-size: 1.08rem; max-width: 38rem; color: var(--muted); }
+    section { margin: 2.4rem 0; }
     h2 {
-      margin: 0 0 0.9rem;
-      font-size: 0.78rem;
+      margin: 0 0 0.8rem;
+      font-size: 0.76rem;
       letter-spacing: 0.16em;
       text-transform: uppercase;
       color: var(--accent);
@@ -68,31 +49,14 @@
       background: var(--panel);
       border: 1px solid var(--line);
       border-radius: 14px;
-      padding: 1.05rem 1.15rem 1.1rem;
-      margin: 0.7rem 0;
+      padding: 1rem 1.1rem;
+      margin: 0.65rem 0;
     }
-    .card h3 { margin: 0 0 0.35rem; font-size: 1.02rem; font-weight: 600; }
-    .card p { margin: 0; color: var(--muted); font-size: 0.95rem; }
-    ul.awards {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-    }
-    ul.awards li {
-      display: grid;
-      grid-template-columns: 3.4rem 1fr;
-      gap: 0.8rem;
-      padding: 0.45rem 0;
-      border-bottom: 1px solid var(--line);
-      font-size: 0.95rem;
-    }
-    ul.awards li:last-child { border-bottom: 0; }
-    ul.awards span { color: var(--accent-2); }
-    .skills {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.45rem;
-    }
+    .card h3 { margin: 0 0 0.3rem; font-size: 1rem; font-weight: 600; }
+    .card p, ul { margin: 0; color: var(--muted); font-size: 0.95rem; }
+    ul { padding-left: 1.1rem; }
+    li { margin: 0.25rem 0; }
+    .skills { display: flex; flex-wrap: wrap; gap: 0.45rem; }
     .skills span {
       border: 1px solid var(--line);
       background: var(--panel);
@@ -101,77 +65,62 @@
       font-size: 0.82rem;
       color: var(--muted);
     }
-    footer {
-      margin-top: 3rem;
-      color: var(--muted);
-      font-size: 0.85rem;
-    }
+    footer { margin-top: 3rem; color: var(--muted); font-size: 0.85rem; }
   </style>
 </head>
 <body>
   <div class="wrap">
     <header>
-      <h1>周婧颖</h1>
-      <p class="en">Jingying Zhou · Irena</p>
-      <p class="lede">生命怎么被写进分子里，模型怎么学会做决定。墨尔本大学学生，关心基因编辑、蛋白结构，也在写很小的神经网络。</p>
-      <nav>
-        <a href="#work">项目</a>
-        <a href="#awards">竞赛</a>
-        <a href="#contact">联系</a>
-        <a href="mailto:zhoujingirena@foxmail.com">zhoujingirena@foxmail.com</a>
-      </nav>
+      <h1>Jingying Zhou</h1>
+      <p class="en">周婧颖 · University of Melbourne</p>
+      <p class="lede">Biology × computation. Gene editing, protein structure, and tiny models that learn to act.</p>
     </header>
 
     <section>
-      <h2>About</h2>
-      <p class="muted">A-Level 毕业于句容碧桂园学校。EPQ 研究 CRISPR 治疗囊性纤维化是否可行；XLAB 做过 CRISPR 流程实验；周末在南京大学协助培养癌细胞、分离细胞器。最近把 CFTR 结构和基因编辑做成能看的页面，也在训练能玩游戏的小模型。</p>
+      <h2>Focus</h2>
+      <ul>
+        <li>CRISPR as a treatment for cystic fibrosis (EPQ)</li>
+        <li>Making CFTR structure and gene-editing paths visible</li>
+        <li>Small nets and search that play games</li>
+      </ul>
     </section>
 
-    <section id="work">
-      <h2>Work</h2>
+    <section>
+      <h2>Selected work</h2>
       <article class="card">
-        <h3>CRISPR × 囊性纤维化</h3>
-        <p>EPQ（A*）。题目：Assessing the Feasibility of CRISPR Technology for Treating Cystic Fibrosis。比较药物对症与基因纠错的机制、动物模型和伦理边界。</p>
+        <h3>CRISPR × cystic fibrosis</h3>
+        <p>EPQ. Compared drug therapy and gene correction on mechanism, animal models, and ethics.</p>
       </article>
       <article class="card">
-        <h3>CFTR 结构与编辑演示</h3>
-        <p>人源 CFTR（UniProt P13569）。浏览器查看 6MSM / 5UAK，按结构域着色，逐步演示 F508del 的 HDR 与 Prime editing。</p>
-      </article>
-      <article class="card">
-        <h3>Fruit Slash</h3>
-        <p>Unity 切水果小游戏：连击、炸弹、生命值，并做成网页预览。</p>
+        <h3>CFTR viewer</h3>
+        <p>Human CFTR (P13569). 6MSM / 5UAK in the browser, HDR vs Prime editing for F508del.</p>
       </article>
       <article class="card">
         <h3>Tiny game agents</h3>
-        <p>不到 1MB 的 2048（蛇形估值 + Expectimax），以及用极小网络读 RAM、分段学习打《宝可梦红》。</p>
+        <p>Sub-1MB 2048, and a small RAM-reading policy for Pokémon Red.</p>
       </article>
     </section>
 
-    <section id="awards">
+    <section>
       <h2>Selected awards</h2>
-      <ul class="awards">
-        <li><span>2025</span>EPQ A* · Brain Bee 三等奖 · UKChO 银奖 · BPhO 银奖</li>
-        <li><span>2024</span>国际中级生物奥林匹克全球银奖 · 袋鼠数学全国金奖</li>
-        <li><span>2023</span>加拿大初级化学奥林匹克中国区银奖 · 加拿大青少年科学奥林匹克银奖</li>
-        <li><span>A-Level</span>数学 A · 物理 A · 化学 A · 中文 A* · 生物 B · 雅思 7.0</li>
+      <ul>
+        <li>EPQ A* (2025)</li>
+        <li>Intermediate Biology Olympiad — global silver (2024)</li>
+        <li>UKChO silver · BPhO silver · Brain Bee (2025)</li>
       </ul>
     </section>
 
     <section>
       <h2>Toolbox</h2>
       <div class="skills">
-        <span>Python</span><span>PyTorch</span><span>NumPy</span>
-        <span>Unity</span><span>C#</span><span>HTML/CSS</span>
-        <span>CRISPR</span><span>structural biology</span>
+        <span>Python</span><span>PyTorch</span>
+        <span>structural biology</span><span>CRISPR</span>
       </div>
     </section>
 
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>想看代码、想聊囊性纤维化、基因编辑或小模型，可以写信：<a href="mailto:zhoujingirena@foxmail.com">zhoujingirena@foxmail.com</a></p>
-    </section>
-
-    <footer>Jingying Zhou · Irena</footer>
+    <footer>
+      <a href="https://github.com/zhoujingying-pro">github.com/zhoujingying-pro</a>
+    </footer>
   </div>
 </body>
 </html>
